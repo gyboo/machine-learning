@@ -64,7 +64,6 @@ plt.show()
 '''
 
 
-
 kmeans = KMeans(n_clusters=2, random_state=10)  #定义三个质心，并拟合质心
 kmeans.fit(X_train_reduction)
 #print(seed[:,7])
