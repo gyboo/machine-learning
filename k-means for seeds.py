@@ -33,6 +33,7 @@ for i in range(1, 40):
         km.fit(X_train_reduction)
         distortions.append(km.inertia_)
 
+
 plt.plot(range(1,40), distortions, marker='o')
 plt.xlabel('Number of clusters')
 plt.ylabel('Distortion')
